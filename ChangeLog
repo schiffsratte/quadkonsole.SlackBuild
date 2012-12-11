@@ -1,0 +1,143 @@
+2011-11-13  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Release 0.4.4
+
+2011-11-06  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Open URLs in suitable application if there is no KPart
+	* Session management stores open views and URLs
+	* View that support editing are editable by default
+	* URLs opened from outside are displayed in a "suitable" stack (zoomed or focused)
+
+2011-10-25  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added a single location bar instead of one per stack
+	* Use Konqueror's history instead of a new one per stack
+	* Added zoom feature
+	* Added Konqueror's sidebar
+	* Progress info on opening URLs
+	* Basic support for Konsole's profiles
+
+2011-10-01  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* General code cleanup
+	* Release 0.4.3
+
+2011-09-30  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added URL prefix "part" to load a given KPart
+	* Fixed display of content menu for konsolepart
+
+2011-09-22  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added web shortcuts to URLs from QKView's url bar
+
+2011-09-18  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added DBUS interface to send input to QuadKonsole4
+	* Added a KPart and shell for remote control (QKRemote)
+
+2011-09-10  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* New context menus
+	* Per stack history
+	* Fixed startup if primary KPart is not available
+	* Fixed crash on closing window after removing a Konsole KPart
+	* Removed duplicate error windows on loading KParts
+	* Added shortcut to close the current view
+	* Release 0.4.2
+
+2011-08-18  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Fixed opening of remote files
+	* Build with KDE < 4.6
+	* Release 0.4.1
+
+2011-08-16  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Support for autoloading KParts based on mime types
+	* Release 0.4
+
+2011-08-14  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added support for different KParts
+
+2011-08-01  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Released 0.3
+
+2011-07-31  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Improved session support
+
+2011-07-01  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Optimized resizing of layouts
+
+2011-06-22  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added config option to start normal/maximized
+
+2011-04-26  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added detach-on-quit option
+	* Fixed dependencies in debian/control
+
+2011-04-23  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Fixed installation of kcfg
+	* Added --cmd option
+	* Reintroduced sloppy focus
+	* Released 0.2.1
+
+2011-04-21  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Released 0.2
+
+2011-04-08  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Added menu bar and config window.
+	* Added shortcuts (remove widget, insert horizontal/vertical).
+
+2009-11-16  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Released 0.1.
+
+2009-11-12  Karsten Borgwaldt  <kb@kb.ccchl.de>
+
+	* Forked-off quadkonsole4, a KDE4 port.
+
+2008-03-30  Simon Perreault  <nomis80@nomis80.org>
+
+	* Released 2.0.3.
+
+2007-07-19  Simon Perreault  <nomis80@nomis80.org>
+
+	* Added --cmd switch.
+
+2007-07-19  Richard Weinberger
+
+	* Added icon.
+
+2007-03-26  Simon Perreault  <nomis80@nomis80.org>
+
+	* Released 2.0.2.
+
+2006-10-10  Jonas Hurrelmann  <j@outpo.st>
+
+	* Keyboard paste support.
+
+2006-09-22  Norbert Thiebaud  <nthiebau@tampabay.rr.com>
+
+	* Fix up and down keys when using more than 2 columns.
+
+2006-03-07  Simon Perreault  <nomis80@nomis80.org>
+
+	* Compilation fixes.
+	* Icon in "System Tools" subdirectory.
+	* Removed empty manual.
+	* Released 2.0.1.
+
+2005-03-28  Simon Perreault  <nomis80@nomis80.org>
+
+	* Finished 2.0 rewrite.
